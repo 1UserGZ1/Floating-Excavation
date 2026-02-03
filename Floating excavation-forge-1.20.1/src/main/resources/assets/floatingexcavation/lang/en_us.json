@@ -1,0 +1,10 @@
+{
+  "mod.floatingexcavation.name": "Floating Excavation",
+  "mod.floatingexcavation.description": "Removes mining speed penalty in water or air",
+
+  "itemGroup.floatingexcavation": "Floating Excavation",
+
+  "message.floatingexcavation.welcome": "Floating Excavation v%s for Minecraft %s loaded",
+  "message.floatingexcavation.feature": "Feature: No mining penalty in water or air",
+  "message.floatingexcavation.compatible": "Compatible with Minecraft %s (Forge %s)"
+}

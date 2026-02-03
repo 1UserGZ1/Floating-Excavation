@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="MIT License"
+
+[[mods]]
+modId="floatingexcavation"
+version="${version}"
+displayName="Floating Excavation"
+logoFile="floatingexcavation_logo.png"
+description='''
+Removes mining speed penalty when in water or not on solid ground.
+This mod makes mining consistent regardless of environment.
+让玩家在水下或悬空时保持正常挖掘速度。
+这个模组使挖掘速度在不同环境下保持一致。
+'''
+authors="DY_XiaoJiaZi"
+credits="Thanks to the Forge team and Minecraft community"
+
+# 依赖配置
+[[dependencies.floatingexcavation]]
+modId="forge"
+mandatory=true
+versionRange="${forge_version_range}"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.floatingexcavation]]
+modId="minecraft"
+mandatory=true
+versionRange="${mc_version_range}"
+ordering="NONE"
+side="BOTH"

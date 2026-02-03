@@ -1,0 +1,10 @@
+{
+  "mod.floatingexcavation.name": "浮空挖掘",
+  "mod.floatingexcavation.description": "移除水下或空中的挖掘速度惩罚",
+
+  "itemGroup.floatingexcavation": "浮空挖掘",
+
+  "message.floatingexcavation.welcome": "浮空挖掘 v%s for Minecraft %s 已加载",
+  "message.floatingexcavation.feature": "特性：水中或空中挖掘无惩罚",
+  "message.floatingexcavation.compatible": "兼容 Minecraft %s (Forge %s)"
+}
