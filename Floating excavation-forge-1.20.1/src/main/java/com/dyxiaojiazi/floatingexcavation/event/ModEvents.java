@@ -14,9 +14,10 @@ public class ModEvents {
             event.setNewSpeed(event.getOriginalSpeed() * 5);
         }
 
-        if (event.getEntity().onGround()) {
+        if (!event.getEntity().onGround()) {
             event.setNewSpeed(event.getOriginalSpeed() * 5);
         }
     }
 
 }
+
